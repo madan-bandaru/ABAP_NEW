@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCTE_SGTXT_FORMATS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZCTE_SGTXT_FORMATS</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    <REPTEXT>Text Formats</REPTEXT>
+    <SCRTEXT_S>Txt Format</SCRTEXT_S>
+    <SCRTEXT_M>Text Formats</SCRTEXT_M>
+    <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>i</LANGU>
+    <LANGU>느</LANGU>
+    <LANGU>룮</LANGU>
+    <LANGU>뽑</LANGU>
+    <LANGU>쀒</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+     <REPTEXT>Text Formats</REPTEXT>
+     <SCRTEXT_S>Txt Format</SCRTEXT_S>
+     <SCRTEXT_M>Text Formats</SCRTEXT_M>
+     <SCRTEXT_L>Text Formats</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

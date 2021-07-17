@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZFI_MT_EXCPN</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    <MAINFLAG>X</MAINFLAG>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>ZFI_MT_EXCPN</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>/DS1/BUKRS</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>BUKRS</ROLLNAME>
+     <CHECKTABLE>T001</CHECKTABLE>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <SHLPORIGIN>P</SHLPORIGIN>
+     <SHLPNAME>C_T001</SHLPNAME>
+     <SHLPFIELD>BUKRS</SHLPFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>/DS1/AFAPL</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>AFAPL</ROLLNAME>
+     <CHECKTABLE>T093</CHECKTABLE>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <SHLPORIGIN>P</SHLPORIGIN>
+     <SHLPNAME>H_AFAPL</SHLPNAME>
+     <SHLPFIELD>AFAPL</SHLPFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>/DS1/KTEXT</FIELDNAME>
+     <ROLLNAME>TEXT_AFAPL</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>/DS1/BUTXT</FIELDNAME>
+     <ROLLNAME>BUTXT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD05M_TABLE>
+    <DD05M>
+     <FIELDNAME>/DS1/AFAPL</FIELDNAME>
+     <FORTABLE>ZFI_MT_EXCPN</FORTABLE>
+     <FORKEY>MANDT</FORKEY>
+     <CHECKTABLE>T093</CHECKTABLE>
+     <CHECKFIELD>MANDT</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>MANDT</DOMNAME>
+     <DATATYPE>CLNT</DATATYPE>
+     <LENG>000003</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>/DS1/AFAPL</FIELDNAME>
+     <FORTABLE>ZFI_MT_EXCPN</FORTABLE>
+     <FORKEY>/DS1/AFAPL</FORKEY>
+     <CHECKTABLE>T093</CHECKTABLE>
+     <CHECKFIELD>AFAPL</CHECKFIELD>
+     <PRIMPOS>0002</PRIMPOS>
+     <DOMNAME>AFAPL</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000004</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>/DS1/AFAPL</FIELDNAME>
+     <FORTABLE>*</FORTABLE>
+     <CHECKTABLE>T093</CHECKTABLE>
+     <CHECKFIELD>AFABER</CHECKFIELD>
+     <PRIMPOS>0003</PRIMPOS>
+     <DOMNAME>AFABE</DOMNAME>
+     <DATATYPE>NUMC</DATATYPE>
+     <LENG>000002</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>/DS1/BUKRS</FIELDNAME>
+     <FORTABLE>ZFI_MT_EXCPN</FORTABLE>
+     <FORKEY>MANDT</FORKEY>
+     <CHECKTABLE>T001</CHECKTABLE>
+     <CHECKFIELD>MANDT</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>MANDT</DOMNAME>
+     <DATATYPE>CLNT</DATATYPE>
+     <LENG>000003</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>/DS1/BUKRS</FIELDNAME>
+     <FORTABLE>ZFI_MT_EXCPN</FORTABLE>
+     <FORKEY>/DS1/BUKRS</FORKEY>
+     <CHECKTABLE>T001</CHECKTABLE>
+     <CHECKFIELD>BUKRS</CHECKFIELD>
+     <PRIMPOS>0002</PRIMPOS>
+     <DOMNAME>BUKRS</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000004</LENG>
+    </DD05M>
+   </DD05M_TABLE>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>/DS1/AFAPL</FIELDNAME>
+     <CHECKTABLE>T093</CHECKTABLE>
+     <CLASFIELD>*</CLASFIELD>
+    </DD08V>
+    <DD08V>
+     <FIELDNAME>/DS1/BUKRS</FIELDNAME>
+     <CHECKTABLE>T001</CHECKTABLE>
+    </DD08V>
+   </DD08V_TABLE>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>i</LANGU>
+    <LANGU>느</LANGU>
+    <LANGU>룮</LANGU>
+    <LANGU>뽑</LANGU>
+    <LANGU>쀒</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Company Code Exception DRATE NRATE</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

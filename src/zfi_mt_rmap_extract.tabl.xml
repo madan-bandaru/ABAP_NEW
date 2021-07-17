@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZFI_MT_RMAP_EXTRACT</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>ZFI_MT_RMAP</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Tax Reporting Key to Tax Reporting Box mapping</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TAXVALUE</FIELDNAME>
+     <ROLLNAME>ZTAXVALUE</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <VALEXI>X</VALEXI>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>TIME_STAMP</FIELDNAME>
+     <ROLLNAME>TIMESTAMP</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>REP_BOX</FIELDNAME>
+     <CHECKTABLE>*</CHECKTABLE>
+     <CLASFIELD>*</CLASFIELD>
+     <NOINHERIT>Y</NOINHERIT>
+    </DD08V>
+    <DD08V>
+     <FIELDNAME>TRK</FIELDNAME>
+     <CHECKTABLE>*</CHECKTABLE>
+     <CLASFIELD>*</CLASFIELD>
+     <NOINHERIT>Y</NOINHERIT>
+    </DD08V>
+   </DD08V_TABLE>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>i</LANGU>
+    <LANGU>느</LANGU>
+    <LANGU>룮</LANGU>
+    <LANGU>뽑</LANGU>
+    <LANGU>쀒</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Reporting Box Mapping Data Extractor</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

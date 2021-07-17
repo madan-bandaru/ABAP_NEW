@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZCTE_SGTXT_FORMATS</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZCTE_SGTXT_FORMATS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCTE_SGTXT_FORMATS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCTE_SGTXT_FORMATS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZCTE_SGTXT_FORMATS</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>i</LANGU>
+    <LANGU>느</LANGU>
+    <LANGU>룮</LANGU>
+    <LANGU>뽑</LANGU>
+    <LANGU>쀒</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>CTE: SGTXT (Item Text) Formats</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DOMVALUE_L>F02</DOMVALUE_L>
+     <DDTEXT>Emp. number, surname, short description &amp; Trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DOMVALUE_L>F03</DOMVALUE_L>
+     <DDTEXT>Expense type, Emp. Number, Description, DCR</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DOMVALUE_L>F05</DOMVALUE_L>
+     <DDTEXT>Description, Country Key,expense type, emp. no &amp; trip number</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DOMVALUE_L>F08</DOMVALUE_L>
+     <DDTEXT>Emp. no., surname, short description, Trip number &amp; tax code</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

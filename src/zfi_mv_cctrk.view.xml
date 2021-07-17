@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZFI_MV_CCTRK</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZFI_MT_CCTRK</ROOTTAB>
+    <DDTEXT>Company Code relevancy</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZFI_MV_CCTRK</VIEWNAME>
+     <TABNAME>ZFI_MT_CCTRK</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZFI_MT_CCTRK</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZFI_MT_CCTRK</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>BUKRS</VIEWFIELD>
+     <TABNAME>ZFI_MT_CCTRK</TABNAME>
+     <FIELDNAME>BUKRS</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <RDONLY>S</RDONLY>
+     <CHECKTABLE>T001</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+     <SHLPNAME>C_T001</SHLPNAME>
+     <SHLPFIELD>BUKRS</SHLPFIELD>
+     <LOGFLAG>X</LOGFLAG>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

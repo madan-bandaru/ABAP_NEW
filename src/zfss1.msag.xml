@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZFSS1</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for FSS messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No data found for selection criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>More than one local currency in project values. LC report not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No ledger code found for currency &amp;1. Report not possible in LC.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>More than one controlling area currency. Report not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No ledger code found for currency &amp;1. Report not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Drilldown not possible on this field or line</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>AoO&apos; of trading partner &amp;1 not found in mapping Table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Tax CoA entry for accnt. &amp;1 not found in Table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No sector for companycode &amp;1 found in Mapping table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No AoO for comapny code &amp;1 found in Mapping table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>sector for trading partner &amp;1 not found in Mapping table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Legal entity for partner &amp;1 not found in Mapping table</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No Entry for Trans.type &amp;1 maintained in Tax coa table.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>HM Carrier Field is mandatory for US Fuels Nomination</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Invalid HM Carrier</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Cost Center Group &amp;1 contain &amp;2# &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Please enter Company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Please enter commodity code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Please enter tax indicator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Please enter Begin date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Invalid validity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Start date cannot be greater than End date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Please enter Material</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Invalid Material &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Fiscal year &amp; is not maintained in table /DS1/FI_MT_OKPC</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Posting period &amp; &amp; is not open</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>File Extension not Valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Provide File path to download</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>File downloaded successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Posting date entered disallowed - future periods extracted. See long text</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Please maintain file path to download to desktop</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Data not saved to the given desktop path</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Invalid document type: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Entered Document type is not valid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Either Clearing date or Posting date atleast one should be Entered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZFSS1</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Invalid document type entered &amp;</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZFSS1016</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZFSS1016</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The Cost Center Group contains cost centers from co.code which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> are not entered in the selection screen, report will not display</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> for those cost centers. If you want to see the report for all</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> cost centers in the cost center group, please enter all the co.codes in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> the selection screen.</TDLINE>
+      </TLINE>
+      <TLINE/>
+      <TLINE/>
+      <TLINE/>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZFSS1025</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZFSS1025</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Fiscal year &amp;V1&amp;  is not maintained in table /DS1/FI_MT_OKPC.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Use T-code /DS1/FI_C_OKPC to maintain entries in the table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/DS1/FI_MT_OKPC. Contact Central Period end team (FSS049) who can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintain the posting period.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZFSS1026</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZFSS1026</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Posting period in selection parameter  &amp;V1&amp; &amp;V2&amp;  is not open. Please</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>open using T-Code &apos;/DS1/FI_C_OKPC’</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Use T-code /DS1/FI_C_OKPC to maintain entries in the table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/DS1/FI_MT_OKPC. Contact Central Period end team (FSS049) who can open</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the posting period.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZFSS1032</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZFSS1032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The posting data entered on the selection is earlier than already</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>extracted periods for the year in question. Please delete the records</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the later periods within the year and re run the extraction.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

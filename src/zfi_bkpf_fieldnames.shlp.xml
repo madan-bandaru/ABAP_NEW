@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SHLP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD30V>
+    <SHLPNAME>ZFI_BKPF_FIELDNAMES</SHLPNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DDTEXT>Search Help for BKPF fields</DDTEXT>
+    <ISSIMPLE>X</ISSIMPLE>
+    <SELMETHOD>DD03L</SELMETHOD>
+    <SELMTYPE>T</SELMTYPE>
+    <DIALOGTYPE>D</DIALOGTYPE>
+   </DD30V>
+   <DD32P_TABLE>
+    <DD32P>
+     <SHLPNAME>ZFI_BKPF_FIELDNAMES</SHLPNAME>
+     <FIELDNAME>TABNAME</FIELDNAME>
+     <FLPOSITION>0001</FLPOSITION>
+     <ROLLNAME>TABNAME</ROLLNAME>
+     <SHLPINPUT>X</SHLPINPUT>
+     <DEFAULTVAL>&apos;BKPF&apos;</DEFAULTVAL>
+     <DEFAULTTYP>L</DEFAULTTYP>
+     <SCRLEN3>20</SCRLEN3>
+    </DD32P>
+    <DD32P>
+     <SHLPNAME>ZFI_BKPF_FIELDNAMES</SHLPNAME>
+     <FIELDNAME>FIELDNAME</FIELDNAME>
+     <FLPOSITION>0002</FLPOSITION>
+     <ROLLNAME>FIELDNAME</ROLLNAME>
+     <SHLPINPUT>X</SHLPINPUT>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <SHLPSELPOS>01</SHLPSELPOS>
+     <SHLPLISPOS>01</SHLPLISPOS>
+     <SCRLEN3>18</SCRLEN3>
+    </DD32P>
+   </DD32P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

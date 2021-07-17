@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZTRXRK</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZTRXRK</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>17</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Tax Reporting Key</DDTEXT>
+    <REPTEXT>Tax Reporting Key</REPTEXT>
+    <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+    <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+    <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/DS1/TRK</SHLPNAME>
+    <SHLPFIELD>TAXRK</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>i</LANGU>
+    <LANGU>느</LANGU>
+    <LANGU>룮</LANGU>
+    <LANGU>뽑</LANGU>
+    <LANGU>쀒</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Tax Reporting Key</DDTEXT>
+     <REPTEXT>Tax Reporting Key</REPTEXT>
+     <SCRTEXT_S>Tax Rep Ky</SCRTEXT_S>
+     <SCRTEXT_M>Tax Reporting Key</SCRTEXT_M>
+     <SCRTEXT_L>Tax Reporting Key</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

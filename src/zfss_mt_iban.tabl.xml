@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZFSS_MT_IBAN</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    <MAINFLAG>X</MAINFLAG>
+    <CONTFLAG>C</CONTFLAG>
+    <EXCLASS>2</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>ZFSS_MT_IBAN</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL2</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>LAND1</ROLLNAME>
+     <CHECKTABLE>T005</CHECKTABLE>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <SHLPORIGIN>X</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>LAND1</ROLLNAME>
+     <CHECKTABLE>T005</CHECKTABLE>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <SHLPORIGIN>X</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD05M_TABLE>
+    <DD05M>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <FORTABLE>ZFSS_MT_IBAN</FORTABLE>
+     <FORKEY>MANDT</FORKEY>
+     <CHECKTABLE>T005</CHECKTABLE>
+     <CHECKFIELD>MANDT</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>MANDT</DOMNAME>
+     <DATATYPE>CLNT</DATATYPE>
+     <LENG>000003</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <FORTABLE>ZFSS_MT_IBAN</FORTABLE>
+     <FORKEY>COUNTRY</FORKEY>
+     <CHECKTABLE>T005</CHECKTABLE>
+     <CHECKFIELD>LAND1</CHECKFIELD>
+     <PRIMPOS>0002</PRIMPOS>
+     <DOMNAME>LAND1</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000003</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <FORTABLE>ZFSS_MT_IBAN</FORTABLE>
+     <FORKEY>MANDT</FORKEY>
+     <CHECKTABLE>T005</CHECKTABLE>
+     <CHECKFIELD>MANDT</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>MANDT</DOMNAME>
+     <DATATYPE>CLNT</DATATYPE>
+     <LENG>000003</LENG>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <FORTABLE>ZFSS_MT_IBAN</FORTABLE>
+     <FORKEY>HOUSE_BANK</FORKEY>
+     <CHECKTABLE>T005</CHECKTABLE>
+     <CHECKFIELD>LAND1</CHECKFIELD>
+     <PRIMPOS>0002</PRIMPOS>
+     <DOMNAME>LAND1</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000003</LENG>
+    </DD05M>
+   </DD05M_TABLE>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <CHECKTABLE>T005</CHECKTABLE>
+    </DD08V>
+    <DD08V>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <CHECKTABLE>T005</CHECKTABLE>
+    </DD08V>
+   </DD08V_TABLE>
+   <DD35V_TALE>
+    <DD35V>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+    </DD35V>
+    <DD35V>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+    </DD35V>
+   </DD35V_TALE>
+   <DD36M>
+    <DD36M>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+     <SHLPFIELD>LAND1</SHLPFIELD>
+     <FLPOSITION>0001</FLPOSITION>
+     <SHTABLE>ZFSS_MT_IBAN</SHTABLE>
+     <SHFIELD>COUNTRY</SHFIELD>
+     <SHLPINPUT>X</SHLPINPUT>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLNAME>LAND1</ROLLNAME>
+     <DOMNAME>LAND1</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000003</LENG>
+    </DD36M>
+    <DD36M>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+     <SHLPFIELD>LANDX</SHLPFIELD>
+     <FLPOSITION>0002</FLPOSITION>
+     <SHTYPE>G</SHTYPE>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLNAME>LANDX</ROLLNAME>
+     <DOMNAME>TEXT15</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000015</LENG>
+    </DD36M>
+    <DD36M>
+     <FIELDNAME>COUNTRY</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+     <SHLPFIELD>NATIO</SHLPFIELD>
+     <FLPOSITION>0003</FLPOSITION>
+     <SHTYPE>G</SHTYPE>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLNAME>NATIO</ROLLNAME>
+     <DOMNAME>TEXT15</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000015</LENG>
+    </DD36M>
+    <DD36M>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+     <SHLPFIELD>LAND1</SHLPFIELD>
+     <FLPOSITION>0001</FLPOSITION>
+     <SHTABLE>ZFSS_MT_IBAN</SHTABLE>
+     <SHFIELD>HOUSE_BANK</SHFIELD>
+     <SHLPINPUT>X</SHLPINPUT>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLNAME>LAND1</ROLLNAME>
+     <DOMNAME>LAND1</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000003</LENG>
+    </DD36M>
+    <DD36M>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+     <SHLPFIELD>LANDX</SHLPFIELD>
+     <FLPOSITION>0002</FLPOSITION>
+     <SHTYPE>G</SHTYPE>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLNAME>LANDX</ROLLNAME>
+     <DOMNAME>TEXT15</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000015</LENG>
+    </DD36M>
+    <DD36M>
+     <FIELDNAME>HOUSE_BANK</FIELDNAME>
+     <SHLPNAME>H_T005_LAND</SHLPNAME>
+     <SHLPFIELD>NATIO</SHLPFIELD>
+     <FLPOSITION>0003</FLPOSITION>
+     <SHTYPE>G</SHTYPE>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLNAME>NATIO</ROLLNAME>
+     <DOMNAME>TEXT15</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000015</LENG>
+    </DD36M>
+   </DD36M>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>5</LANGU>
+    <LANGU>6</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>K</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>O</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+    <LANGU>T</LANGU>
+    <LANGU>U</LANGU>
+    <LANGU>V</LANGU>
+    <LANGU>W</LANGU>
+    <LANGU>i</LANGU>
+    <LANGU>느</LANGU>
+    <LANGU>룮</LANGU>
+    <LANGU>뽑</LANGU>
+    <LANGU>쀒</LANGU>
+    <LANGU>쁩</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>5</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>K</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>O</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>T</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>U</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>V</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>W</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>i</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>느</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>룮</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>뽑</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쀒</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>쁩</DDLANGUAGE>
+     <DDTEXT>Table for maintaining ISO Code and Bank Code</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
